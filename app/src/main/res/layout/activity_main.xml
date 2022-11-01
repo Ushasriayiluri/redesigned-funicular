@@ -12,7 +12,8 @@
         android:layout_width="212dp"
         android:layout_height="50dp"
         android:layout_marginBottom="372dp"
-        android:text="login"
+        android:text="@string/button1"
+        android:onClick="goToActivity2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.623"
@@ -22,7 +23,7 @@
         android:id="@+id/sigin"
         android:layout_width="88dp"
         android:layout_height="21dp"
-        android:text="signin"
+        android:text="click"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.569"
@@ -30,12 +31,6 @@
         app:layout_constraintTop_toBottomOf="@+id/login"
         app:layout_constraintVertical_bias="0.065" />
 
-    <Button
-        android:id="@+id/count_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="count"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="660dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

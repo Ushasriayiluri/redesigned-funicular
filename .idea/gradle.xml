@@ -9,8 +9,8 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="/home/scm-studs/w9553142/AndroidStudioProjects/redesigned-funicular" />
+            <option value="/home/scm-studs/w9553142/AndroidStudioProjects/redesigned-funicular/app" />
           </set>
         </option>
       </GradleProjectSettings>
