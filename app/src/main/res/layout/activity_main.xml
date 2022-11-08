@@ -12,7 +12,7 @@
         android:layout_width="212dp"
         android:layout_height="50dp"
         android:layout_marginBottom="372dp"
-        android:text="@string/button1"
+        android:text="login"
         android:onClick="goToActivity2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
