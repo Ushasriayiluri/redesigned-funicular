@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/clDateView"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDay1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sat"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvDate1"
+        app:layout_constraintEnd_toEndOf="@+id/tvDate1" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDate1"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:text="10"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="#446177"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvDate2"
+        app:layout_constraintTop_toBottomOf="@+id/tvDay1"
+        android:layout_marginTop="5dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvMonth1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sep"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/tvDate1"
+        app:layout_constraintStart_toStartOf="@+id/tvDate1"
+        app:layout_constraintEnd_toEndOf="@+id/tvDate1"
+        android:layout_marginTop="5dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDay2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sat"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvDate2"
+        app:layout_constraintEnd_toEndOf="@+id/tvDate2" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDate2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:text="10"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="#4CAF50"
+        app:layout_constraintStart_toEndOf="@+id/tvDate1"
+        app:layout_constraintEnd_toStartOf="@+id/tvDate3"
+        app:layout_constraintTop_toBottomOf="@+id/tvDay2"
+        android:layout_marginTop="5dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvMonth2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sep"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/tvDate2"
+        app:layout_constraintStart_toStartOf="@+id/tvDate2"
+        app:layout_constraintEnd_toEndOf="@+id/tvDate2"
+        android:layout_marginTop="5dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDay3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sat"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvDate3"
+        app:layout_constraintEnd_toEndOf="@+id/tvDate3"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDate3"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:text="10"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="#4CAF50"
+        app:layout_constraintStart_toEndOf="@+id/tvDate2"
+        app:layout_constraintEnd_toStartOf="@+id/tvDate4"
+        app:layout_constraintTop_toBottomOf="@+id/tvDay3"
+        android:layout_marginTop="5dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvMonth3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sep"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/tvDate3"
+        app:layout_constraintStart_toStartOf="@+id/tvDate3"
+        app:layout_constraintEnd_toEndOf="@+id/tvDate3"
+        android:layout_marginTop="5dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDay4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sat"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvDate4"
+        app:layout_constraintEnd_toEndOf="@+id/tvDate4"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDate4"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:text="10"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="#4CAF50"
+        app:layout_constraintStart_toEndOf="@+id/tvDate3"
+        app:layout_constraintEnd_toStartOf="@+id/tvDate5"
+        app:layout_constraintTop_toBottomOf="@+id/tvDay4"
+        android:layout_marginTop="5dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvMonth4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sep"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/tvDate4"
+        app:layout_constraintStart_toStartOf="@+id/tvDate4"
+        app:layout_constraintEnd_toEndOf="@+id/tvDate4"
+        android:layout_marginTop="5dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDay5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sat"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvDate5"
+        app:layout_constraintEnd_toEndOf="@+id/tvDate5"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDate5"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:text="10"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="#4CAF50"
+        app:layout_constraintStart_toEndOf="@+id/tvDate4"
+        app:layout_constraintEnd_toStartOf="@+id/tvDate6"
+        app:layout_constraintTop_toBottomOf="@+id/tvDay5"
+        android:layout_marginTop="5dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvMonth5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sep"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/tvDate5"
+        app:layout_constraintStart_toStartOf="@+id/tvDate5"
+        app:layout_constraintEnd_toEndOf="@+id/tvDate5"
+        android:layout_marginTop="5dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDay6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sat"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvDate6"
+        app:layout_constraintEnd_toEndOf="@+id/tvDate6"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDate6"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:text="10"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="#4CAF50"
+        app:layout_constraintStart_toEndOf="@+id/tvDate5"
+        app:layout_constraintEnd_toStartOf="@+id/tvDate7"
+        app:layout_constraintTop_toBottomOf="@+id/tvDay6"
+        android:layout_marginTop="5dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvMonth6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sep"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/tvDate6"
+        app:layout_constraintStart_toStartOf="@+id/tvDate6"
+        app:layout_constraintEnd_toEndOf="@+id/tvDate6"
+        android:layout_marginTop="5dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDay7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sat"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvDate7"
+        app:layout_constraintEnd_toEndOf="@+id/tvDate7"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDate7"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:text="10"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="#4CAF50"
+        app:layout_constraintStart_toEndOf="@+id/tvDate6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDay7"
+        android:layout_marginTop="5dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvMonth7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sep"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/tvDate7"
+        app:layout_constraintStart_toStartOf="@+id/tvDate7"
+        app:layout_constraintEnd_toEndOf="@+id/tvDate7"
+        android:layout_marginTop="5dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
