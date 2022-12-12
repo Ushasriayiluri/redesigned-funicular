@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/clDateView"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-
+    
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvDay1"
         android:layout_width="wrap_content"
@@ -13,17 +13,19 @@
         android:text="Sat"
         android:textSize="13sp"
         android:textColor="@color/white"
+        android:fontFamily="@font/nunito_regular"
         android:gravity="center"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="@+id/tvDate1"
         app:layout_constraintEnd_toEndOf="@+id/tvDate1" />
-
+    
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvDate1"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:text="10"
         android:textSize="13sp"
+        android:fontFamily="@font/nunito_regular"
         android:gravity="center"
         android:textColor="@color/white"
         android:background="#446177"
@@ -39,12 +41,13 @@
         android:text="Sep"
         android:textSize="13sp"
         android:textColor="@color/white"
+        android:fontFamily="@font/nunito_regular"
         android:gravity="center"
         app:layout_constraintTop_toBottomOf="@+id/tvDate1"
         app:layout_constraintStart_toStartOf="@+id/tvDate1"
         app:layout_constraintEnd_toEndOf="@+id/tvDate1"
         android:layout_marginTop="5dp"/>
-
+    
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvDay2"
         android:layout_width="wrap_content"
@@ -52,6 +55,7 @@
         android:text="Sat"
         android:textSize="13sp"
         android:textColor="@color/white"
+        android:fontFamily="@font/nunito_regular"
         android:gravity="center"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="@+id/tvDate2"
@@ -63,6 +67,7 @@
         android:layout_height="35dp"
         android:text="10"
         android:textSize="13sp"
+        android:fontFamily="@font/nunito_regular"
         android:gravity="center"
         android:textColor="@color/white"
         android:background="#4CAF50"
@@ -78,12 +83,13 @@
         android:text="Sep"
         android:textSize="13sp"
         android:textColor="@color/white"
+        android:fontFamily="@font/nunito_regular"
         android:gravity="center"
         app:layout_constraintTop_toBottomOf="@+id/tvDate2"
         app:layout_constraintStart_toStartOf="@+id/tvDate2"
         app:layout_constraintEnd_toEndOf="@+id/tvDate2"
         android:layout_marginTop="5dp"/>
-
+    
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvDay3"
         android:layout_width="wrap_content"
@@ -91,6 +97,7 @@
         android:text="Sat"
         android:textSize="13sp"
         android:textColor="@color/white"
+        android:fontFamily="@font/nunito_regular"
         android:gravity="center"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="@+id/tvDate3"
@@ -102,6 +109,7 @@
         android:layout_height="35dp"
         android:text="10"
         android:textSize="13sp"
+        android:fontFamily="@font/nunito_regular"
         android:gravity="center"
         android:textColor="@color/white"
         android:background="#4CAF50"
@@ -117,6 +125,7 @@
         android:text="Sep"
         android:textSize="13sp"
         android:textColor="@color/white"
+        android:fontFamily="@font/nunito_regular"
         android:gravity="center"
         app:layout_constraintTop_toBottomOf="@+id/tvDate3"
         app:layout_constraintStart_toStartOf="@+id/tvDate3"
@@ -130,6 +139,7 @@
         android:text="Sat"
         android:textSize="13sp"
         android:textColor="@color/white"
+        android:fontFamily="@font/nunito_regular"
         android:gravity="center"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="@+id/tvDate4"
@@ -141,6 +151,7 @@
         android:layout_height="35dp"
         android:text="10"
         android:textSize="13sp"
+        android:fontFamily="@font/nunito_regular"
         android:gravity="center"
         android:textColor="@color/white"
         android:background="#4CAF50"
@@ -156,6 +167,7 @@
         android:text="Sep"
         android:textSize="13sp"
         android:textColor="@color/white"
+        android:fontFamily="@font/nunito_regular"
         android:gravity="center"
         app:layout_constraintTop_toBottomOf="@+id/tvDate4"
         app:layout_constraintStart_toStartOf="@+id/tvDate4"
@@ -169,6 +181,7 @@
         android:text="Sat"
         android:textSize="13sp"
         android:textColor="@color/white"
+        android:fontFamily="@font/nunito_regular"
         android:gravity="center"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="@+id/tvDate5"
@@ -180,6 +193,7 @@
         android:layout_height="35dp"
         android:text="10"
         android:textSize="13sp"
+        android:fontFamily="@font/nunito_regular"
         android:gravity="center"
         android:textColor="@color/white"
         android:background="#4CAF50"
@@ -195,6 +209,7 @@
         android:text="Sep"
         android:textSize="13sp"
         android:textColor="@color/white"
+        android:fontFamily="@font/nunito_regular"
         android:gravity="center"
         app:layout_constraintTop_toBottomOf="@+id/tvDate5"
         app:layout_constraintStart_toStartOf="@+id/tvDate5"
@@ -208,6 +223,7 @@
         android:text="Sat"
         android:textSize="13sp"
         android:textColor="@color/white"
+        android:fontFamily="@font/nunito_regular"
         android:gravity="center"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="@+id/tvDate6"
@@ -219,6 +235,7 @@
         android:layout_height="35dp"
         android:text="10"
         android:textSize="13sp"
+        android:fontFamily="@font/nunito_regular"
         android:gravity="center"
         android:textColor="@color/white"
         android:background="#4CAF50"
@@ -234,6 +251,7 @@
         android:text="Sep"
         android:textSize="13sp"
         android:textColor="@color/white"
+        android:fontFamily="@font/nunito_regular"
         android:gravity="center"
         app:layout_constraintTop_toBottomOf="@+id/tvDate6"
         app:layout_constraintStart_toStartOf="@+id/tvDate6"
@@ -247,6 +265,7 @@
         android:text="Sat"
         android:textSize="13sp"
         android:textColor="@color/white"
+        android:fontFamily="@font/nunito_regular"
         android:gravity="center"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="@+id/tvDate7"
@@ -258,6 +277,7 @@
         android:layout_height="35dp"
         android:text="10"
         android:textSize="13sp"
+        android:fontFamily="@font/nunito_regular"
         android:gravity="center"
         android:textColor="@color/white"
         android:background="#4CAF50"
@@ -273,10 +293,11 @@
         android:text="Sep"
         android:textSize="13sp"
         android:textColor="@color/white"
+        android:fontFamily="@font/nunito_regular"
         android:gravity="center"
         app:layout_constraintTop_toBottomOf="@+id/tvDate7"
         app:layout_constraintStart_toStartOf="@+id/tvDate7"
         app:layout_constraintEnd_toEndOf="@+id/tvDate7"
         android:layout_marginTop="5dp"/>
-
+    
 </androidx.constraintlayout.widget.ConstraintLayout>
